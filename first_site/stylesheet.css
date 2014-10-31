@@ -1,0 +1,75 @@
+  <style>
+    body {
+      background: black;
+      background-size: cover;
+      background-position: center;
+      font-family: helvetica;
+      color: white
+    }
+
+    p {
+      font-size: 16px;
+  		font-family: Garamond;}
+
+    header {
+    	background: url("http://s3.amazonaws.com/rapgenius/1361742626_beautiful-ocean-beautiful-pictures-27115524-1440-900.jpg");
+      text-align: center;
+      background-size: cover;
+      background-position: bottom;
+      color: black;
+    }
+    
+    a {
+      color: black;
+      font-family: Garamond;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    
+    h3 {font-size 36px; font-family: Garamond;}
+
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    
+    ul {
+      padding: 10px;
+      background: rgba(7,7,85,0.3);
+    }
+    
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    
+    a:hover {font-family:Courier;}
+
+    .left {
+          text-align: center;
+         height: 400px;
+         width: 15%;
+         background-color: black;
+         float: left;
+         margin-bottom: 10px;
+         border: 1px dashed white;
+         position: fixed;
+      }
+
+    .right {
+        height: 500px;
+        width: 80%;
+        background-color: black;
+        float:right;
+       margin-bottom: 10px;
+      }
+
+    #footer {
+      height: 50px;
+      background-color: rgba(7,200,255,0.1);
+      clear: both;
+      }
+
+</style>
