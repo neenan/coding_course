@@ -10,11 +10,12 @@
 
     p {color:white;
       font-size: 16px;
-  		font-family: Garamond;}
+  		font-family: 'Poiret One', cursive;
+      margin-top: 10px;}
 
     header {
     	background: url("http://s3.amazonaws.com/rapgenius/1361742626_beautiful-ocean-beautiful-pictures-27115524-1440-900.jpg");
-      height: 340px;
+      height: 310px;
       text-align: center;
       background-size: cover;
       background-position: bottom;
@@ -26,8 +27,8 @@
     header h1{font-family: Edwardian Script ITC;
       font-size: 40px;
       letter-spacing: 4px;
-      word-spacing: 6px
-      margin-top: -40px;
+      word-spacing: 6px;
+      margin-top: -5px;
       padding-top: -10px;
       margin-bottom: -20px;
       padding-bottom: 0px;
@@ -47,6 +48,9 @@
     h1 {
       font-size: 40px;
     }
+
+    h2{font-family:'Poiret One', cursive;
+    margin-bottom: 20px;}
     
     h3 {font-size 36px; font-family: Garamond;}
 
@@ -71,7 +75,7 @@
 
     a:hover {font-family:Courier;}
 
-    .left {
+   /* .left {
           text-align: center;
          height: 400px;
          width: 15%;
@@ -83,26 +87,34 @@
          border: 1px dashed white;
          position: fixed;
       }
-
+  */
     .right {
-        height: 500px;
+        height: 800px;
         width: 80%;
         background-color: black;
-        float:right;
-       margin-bottom: 10px;
-       margin-right: 10px;
+       margin: 10px 50px 10px 50px;
+       padding: 0 60px 0 60px;
+       display: inline;
       }
 
+      .right p {margin: 15px 40px 0 40px;
+        padding: 0 30px 0 30px;}
+      .right h2 {margin: 0 40px 20px 40px;}
+
+/**{border: 1px solid white;}
+*/
     #footer {
       height: 50px;
       background-color: rgba(7,200,255,0.1);
       clear: both;
+      margin-top: 40px;
+      text-align: center;
       }
 
 table {text-align: center;
-      margin-left: 30px;
-      margin-top: 10px;
+      margin: auto;
       padding: 5px 5px 5px 5px;
+
     }
 
 table img {border: 1px solid black;}
